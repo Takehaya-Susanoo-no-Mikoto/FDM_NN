@@ -40,7 +40,7 @@ Let us write the equation in a general form:
 <p style="text-align: center;">
 $$\Large\frac{d}{dr}(rV\frac{dy}{dr})=rf$$
 </p>
-And we will develop a numerical scheme for it. We will approximate the coefficients r and V at points shifted by h/2 to achieve an accuracy of $O(h^2)$ for the difference scheme. We will write the equation in the difference form:
+And we will develop a numerical scheme for it. We will approximate the coefficients r and V at points shifted by h/2 to achieve an accuracy of O(h^2) for the difference scheme. We will write the equation in the difference form:
 <p style="text-align: center;">
 $$\Large r_i^{-}V_i^{-}y_{i-1}-(r_i^{-}V_i^{-}+r_i^{+}V_i^{+})y_i+r_i^{+}V_i^{+}y_{i+1}=-(-r_if_ih^2)$$
 </p>
@@ -50,4 +50,15 @@ $$\Large r_i^{-}=r_i-\frac{h}{2}$$
 </p>
 <p style="text-align: center;">
 $$\Large r_i^{+}=r_i+\frac{h}{2}$$
+</p>
+General form of the sweep method:
+<p style="text-align: center;">
+$$\Large A_i y_{i-1}-C_i y_i + B_i y_{i+1}=-F_i$$
+</p>
+Then the coefficients of the difference scheme take the following form:
+<p style="text-align: center;">
+$$\Large A_i= r_i V_i^{-}$$
+$$\Large B_i= r_i^{+} V_i^{+}$$
+$$\Large C_i= r_i^{-} V_i^{-} + r_i^{+} V_i^{+}$$
+$$\Large F_i= -r_i f_ih^2$$
 </p>

@@ -46,5 +46,5 @@ $$\Larger_i^{-}V_i^{-}y_{i-1}-(r_i^{-}V_i^{-}+r_i^{+}V_i^{+})y_i+r_i^{+}V_i^{+}y
 </p>
 Where
 <p style="text-align: center;">
-$r_i^{-}=r_i-\frac{h}{2}$$r_i^{+}$=r_i+\frac{h}{2}$
+$\Large{r_i^{-}=r_i-\frac{h}{2}}$ $\Large{r_i^{+}$=r_i+\frac{h}{2}}$
 </p>

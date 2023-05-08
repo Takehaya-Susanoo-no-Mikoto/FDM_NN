@@ -42,12 +42,12 @@ $$\Large\frac{d}{dr}(rV\frac{dy}{dr})=rf$$
 </p>
 And we will develop a numerical scheme for it. We will approximate the coefficients $r$ and $V$ at points shifted by $h/2$ to achieve an accuracy of $O(h^2)$ for the difference scheme. We will write the equation in the difference form:
 <p style="text-align: center;">
-$$\Larger_i^{-}V_i^{-}y_{i-1}-(r_i^{-}V_i^{-}+r_i^{+}V_i^{+})y_i+r_i^{+}V_i^{+}y_{i+1}=-(-r_if_ih^2)$$
+$$\Large r_i^{-}V_i^{-}y_{i-1}-(r_i^{-}V_i^{-}+r_i^{+}V_i^{+})y_i+r_i^{+}V_i^{+}y_{i+1}=-(-r_if_ih^2)$$
 </p>
 Where
 <p style="text-align: center;">
-$$\Large\r_i^{-}=r_i-\frac{h}{2}$$
+$$\Large r_i^{-}=r_i-\frac{h}{2}$$
 </p>
 <p style="text-align: center;">
-$$\Large\r_i^{+}$=r_i+\frac{h}{2}$$
+$$\Large r_i^{+}$=r_i+\frac{h}{2}$$
 </p>

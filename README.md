@@ -19,11 +19,11 @@ This code requires the following libraries:
 - torch.utils.data
 
 # Electromagnetic field model in high-frequency plasmatron
-## To model the electrical parameters of a high-frequency plasma torch, we write down the Maxwell equation. The complex form of the Maxwell equation in one dimension is given by
+To model the electrical parameters of a high-frequency plasma torch, we write down the Maxwell equation. The complex form of the Maxwell equation in one dimension is given by
 <p style="text-align: center;">
 $$\Large\frac{d\dot{H}}{dr}=(\sigma + i\epsilon_0\epsilon)\dot{E}$$
 </p>
-### Applying the complex amplitude method to this:
+Applying the complex amplitude method to this:
 <p style="text-align: center;">
 $$\Large\dot{H}=H\exp(iωt+ψ_H)$$
 </p>
@@ -89,3 +89,6 @@ Then:
 <p style="text-align: center;">
 $$\Large V=\frac{1}{σ}, f_i=2σE^2, F_i=-r_i 2σE^2 h^2$$
 </p>
+We obtained the dependence of H on r:
+![image](https://user-images.githubusercontent.com/124432421/236879784-44724f43-60d6-4338-85bd-614bc6f423c3.png)
+

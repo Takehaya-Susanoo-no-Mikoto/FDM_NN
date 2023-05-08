@@ -17,6 +17,7 @@ This code requires the following libraries:
 - torch.optim
 - sklearn.model_selection
 - torch.utils.data
+
 \begin(center)
 $\frac{d}{dr}(rV\frac{dy}{dr})=rf$
 \end(center)

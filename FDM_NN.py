@@ -113,7 +113,7 @@ def train_epoch(model, dataloader, criterion, optimizer):
         optimizer.step()
 
         running_loss += loss.item() * inputs.size(0)
-        correct += torch.isclose(outputs.float(), targets.float(), rtol=0.05).sum().item()
+        correct += torch.isclose(outputs.float(), targets.float(), rtol=0.01).sum().item()
 
     epoch_loss = running_loss / len(dataloader.dataset)
     epoch_acc = correct / len(dataloader.dataset)
@@ -133,7 +133,7 @@ def evaluate_loss_acc(model, criterion, test_loader, device):
 
             loss = criterion(output, target)
             test_loss += loss.item() * data.size(0)
-            correct += torch.isclose(output.float(), target.float(), rtol=0.05).sum().item()
+            correct += torch.isclose(output.float(), target.float(), rtol=0.01).sum().item()
     test_loss /= len(test_loader.dataset)
     accuracy = correct / len(test_loader.dataset)
 

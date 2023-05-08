@@ -19,5 +19,5 @@ This code requires the following libraries:
 - torch.utils.data
 
 # <p style="text-align: center;">
-$$\frac{d}{dr}(rV\frac{dy}{dr})=rf$$
+\Large$$\frac{d}{dr}(rV\frac{dy}{dr})=rf$$
 </p>

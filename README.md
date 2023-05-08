@@ -90,5 +90,6 @@ Then:
 $$\Large V=\frac{1}{σ}, f_i=2σE^2, F_i=-r_i 2σE^2 h^2$$
 </p>
 We obtained the dependence of H on r:
+
 ![image](https://user-images.githubusercontent.com/124432421/236879784-44724f43-60d6-4338-85bd-614bc6f423c3.png)
 

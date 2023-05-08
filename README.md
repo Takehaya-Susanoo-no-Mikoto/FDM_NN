@@ -93,3 +93,30 @@ We obtained the dependence of H on r:
 
 ![image](https://user-images.githubusercontent.com/124432421/236879784-44724f43-60d6-4338-85bd-614bc6f423c3.png)
 
+The output of model
+
+![image](https://user-images.githubusercontent.com/124432421/236899704-417a1698-4f17-45fb-8a67-4961294c359b.png)
+
+### Epochs
+
+Epoch [1/10], Loss (train/test) : 0.9832/0.0705,Acc (train/test): 3.4653/2.0000
+
+Epoch [2/10], Loss (train/test) : 0.0476/0.0147,Acc (train/test): 8.5347/13.0000
+
+Epoch [3/10], Loss (train/test) : 0.0106/0.0041,Acc (train/test): 17.4554/24.2277
+
+Epoch [4/10], Loss (train/test) : 0.0027/0.0012,Acc (train/test): 33.5755/46.0000
+
+Epoch [5/10], Loss (train/test) : 0.0007/0.0004,Acc (train/test): 60.3713/78.0000
+
+Epoch [6/10], Loss (train/test) : 0.0002/0.0001,Acc (train/test): 82.8168/89.0000
+
+Epoch [7/10], Loss (train/test) : 0.0001/0.0000,Acc (train/test): 91.5520/97.0000
+
+Epoch [8/10], Loss (train/test) : 0.0000/0.0000,Acc (train/test): 96.4752/96.0000
+
+Epoch [9/10], Loss (train/test) : 0.0000/0.0000,Acc (train/test): 96.9208/97.0000
+
+Epoch [10/10], Loss (train/test) : 0.0000/0.0000,Acc (train/test): 97.9208/98.0000
+
+

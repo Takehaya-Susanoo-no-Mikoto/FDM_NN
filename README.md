@@ -18,6 +18,6 @@ This code requires the following libraries:
 - sklearn.model_selection
 - torch.utils.data
 
-\begin{center}
-$\frac{d}{dr}(rV\frac{dy}{dr})=rf$
-\end{center}
+<p style="text-align: center;">
+$$\frac{d}{dr}(rV\frac{dy}{dr})=rf$$
+</p>
